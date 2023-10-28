@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ubi/screens/notification_screen.dart';
 import 'package:ubi/screens/sign_up_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       
-      home:  SignUpScreen(),
+      home:  NotificationScreen(),
       debugShowCheckedModeBanner: false,
     );
     
